@@ -267,7 +267,9 @@ body {
 
 .foterform_box {
   position: relative;
-  display: inline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
 }
@@ -612,12 +614,12 @@ textarea {
   line-height: 1.19;
   text-decoration: none;
   letter-spacing: 0.03em;
-  margin-right: 93px;
 }
 
 .logo_black {
   color: var(--logo-color);
   margin-left: 0px;
+  margin-right: 93px;
 }
 
 header .logo {
