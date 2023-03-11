@@ -1,0 +1,30 @@
+.team_section{
+    background-color: var(--bgc-color);
+}
+.team{
+    display: flex;
+    margin-top: 50px;
+}
+
+.person_title{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.person_container{
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.person_text{
+color: var(--second-text-color);
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+
+margin-top: 10px;
+} 

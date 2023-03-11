@@ -1,0 +1,23 @@
+/* logo */
+.logo{
+    display: flex;
+    color:  var(--acent-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    margin-right: 93px;
+}
+
+
+.logo_black{
+    color: var(--logo-color);
+    margin-left: 0px;
+}
+
+header .logo{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}

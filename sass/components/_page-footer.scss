@@ -1,0 +1,26 @@
+.footer{
+    background-color: var(--bgc-footer-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.logo-white{
+    color: var(--white-color);
+}
+
+.opis {
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.contakts-footer{
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.adress{
+    color: var(--white-color);
+}
