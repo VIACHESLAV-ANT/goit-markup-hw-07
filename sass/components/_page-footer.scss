@@ -4,41 +4,40 @@
     padding-bottom: 60px;
 }
 
-.logo_white{
-    color: var(--white-color);
-}
 
-.opis {
+.opis{
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
-.contakts-footer{
+.contaсts__footer{
+    @extend %list;
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
+
+    &--adress{
+        color: var(--white-color);
+    }
 }
 
-.adress{
-    color: var(--white-color);
-}
 
-.contakts-item{
+.contacts__item{
     margin-top: 9px;
    }
 
-   .contakts-item-adress{
+.contacts__item--adress{
     margin-top: 20px;
    }
 
-   .adresa_link{
+.container--display{
     align-items: baseline;
     display: flex;
    }
 
-   .link-title{
+.company-link__title{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -52,14 +51,15 @@ color: #FFFFFF;
 
    }
 
-   .link-list{
+.company-link__list{
+    @extend %list;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
    }
 
-   .link-list-item{
+   .company-link__item{
     display: flex;
     height: 44px;
     width: 44px;
@@ -72,7 +72,7 @@ color: #FFFFFF;
     }
    }
 
-   .link-list-ref{
+   .company-link__ref{
     display: flex;
     height: 100%;
     width: 100%;
@@ -90,7 +90,7 @@ color: #FFFFFF;
    }
 
 
-   .link-list-icon{
+   .company-link__icon{
     display: flex;
     width: 20px;
     height: 20px;
@@ -99,11 +99,15 @@ color: #FFFFFF;
     align-items: center;
    }
 
-   .footer_adress{
+.footer__main-data{
     margin-right: 70px;
     flex-grow: 1;
 }
 
-.footer_link{
+.company-link{
     margin-right: 93px;
+}
+
+.contacts{
+    @extend %list;
 }

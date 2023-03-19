@@ -1,4 +1,4 @@
- .clients_link{
+ .clients__item{
     box-sizing: border-box;
     margin-top: 50px;
 
@@ -8,12 +8,12 @@
 
    }
 
-   .clients_icon{
+   .clients__icon{
     height: 92px;
     width: 170px;
     fill: currentColor;
    }
-   .clients_ref{
+   .clients__link{
     display: flex;
     color: #AFB1B8;
     border: 1px solid #AFB1B8;
@@ -36,5 +36,6 @@
 
 
    .clients{
+    @extend %list;
     display: flex;
    }

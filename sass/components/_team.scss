@@ -1,12 +1,13 @@
-.team_section{
+.section--newbackground{
     background-color: var(--bgc-color);
 }
 .team{
+    @extend %list;
     display: flex;
     margin-top: 50px;
 }
 
-.person_title{
+.person__title{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
@@ -14,12 +15,12 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 
-.person_container{
+.person__container{
 padding-top: 30px;
 padding-bottom: 30px;
 }
 
-.person_text{
+.person__text{
 color: var(--second-text-color);
 font-size: 16px;
 line-height: 1.19;
@@ -40,12 +41,12 @@ margin-top: 10px;
    }
 }
 
-.social_list{
+.social__item{
     height: 44px;
     width: 44px;
    }
 
-   .social_link{
+   .social__link{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,13 +68,14 @@ margin-top: 10px;
 
 
 
-   .social_icon{
+   .social__icon{
     fill: currentColor;
     width: 20px;
     height: 20px;
    }
 
    .social{
+    @extend %list;
     justify-content: center;
     gap: 10px;
     display: flex;

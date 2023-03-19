@@ -8,17 +8,21 @@
     line-height: 1.19;
     text-decoration: none;
     letter-spacing: 0.03em;
+
+    .header__container &{
+        padding-top: 24px;
+        padding-bottom: 25px;
+    }
     
 }
 
 
-.logo_black{
+.logo__black{
     color: var(--logo-color);
     margin-left: 0px;
     margin-right: 93px;
 }
 
-header .logo{
-    padding-top: 24px;
-    padding-bottom: 25px;
+.logo__white{
+    color: var(--white-color);
 }
